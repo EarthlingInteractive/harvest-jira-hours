@@ -1,0 +1,25 @@
+{
+  "name": "harvest-jira-hours",
+  "version": "1.0.0",
+  "description": "Tool to move hours from harvest to jira",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EarthlingInteractive/harvest-jira-hours.git"
+  },
+  "author": "Josh Thomas <jthoms1@gmail.com> (http://github.com/jthoms1)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EarthlingInteractive/harvest-jira-hours/issues"
+  },
+  "homepage": "https://github.com/EarthlingInteractive/harvest-jira-hours#readme",
+  "dependencies": {
+    "harvest": "^0.1.4",
+    "jira": "^0.9.2",
+    "moment": "^2.11.2"
+  }
+}

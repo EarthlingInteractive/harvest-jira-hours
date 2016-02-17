@@ -2,6 +2,7 @@
 logs
 *.log
 npm-debug.log*
+*.swp
 
 # Runtime data
 pids
@@ -31,3 +32,5 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+config.js
